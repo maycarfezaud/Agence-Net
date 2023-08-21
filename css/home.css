@@ -255,7 +255,7 @@ p{
 }
 */
 /*main*/
-
+/*première section*/
 .contrat-prestation{
     display: flex;
     position: relative;
@@ -307,3 +307,32 @@ p{
 .text-prestations:hover{
     color: #552761;
 }
+/*deuxième section*/
+.commentaire-container{
+    background-image: url(../img/background5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    margin-top: -20%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.comments{
+    display: flex;
+    animation: scroll 30s linear infinite;
+}
+.comment{
+    min-width: 300px;
+    padding: 100px;
+}
+ @keyframes scroll{
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+ }
