@@ -409,3 +409,68 @@ p{
 .tarif:visited:hover{
     opacity: 0.8;
 }
+.savoir-faire{
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:40% ;
+    align-content: center;
+}
+.savoir-faire-text{
+    background-color:  rgb(226, 221, 215) ;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -10%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    padding: 7%;
+    border-style: solid ;
+    border-color: #552761;
+}
+.contact-container{
+    background-color:rgb(226, 221, 215) ;
+    width: 700px;
+}
+.icon{
+    background-color: rgb(226, 221, 215);
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align:right;
+}
+.sm-icon{
+    height: 40px;
+    width: 40px;
+    
+
+}
+.phone-mail{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: left;
+    margin-left: 0%;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*
+.savoir-faire-img{
+    width: 70%;
+    background-position: center;
+}
+
+.savoir-faire-text{
+    width: 70%;
+    background-position: center;
+}*/
